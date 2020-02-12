@@ -22,12 +22,11 @@ h2 {
     font-size: 24px;
 }
 
-@media screen and (max-width: 600px){
+
 .container {
     margin: 0 auto;
     width: 1024px;
     align-self: center;
-}
 }
 
 #main-bio{
