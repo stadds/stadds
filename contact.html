@@ -22,7 +22,6 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
 
-
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
 
   <!--My CSS-->
@@ -32,7 +31,8 @@
 
 </head>
 
-<body class="d-flex flex-column">
+
+<body >
   <div class="page-wrap">
 
   <!--Header w/ Nav-->
@@ -68,27 +68,46 @@
     </nav>
   </header>
 
-
-  <!--Main Content-->
-  <main id="main-content" class="flex-grow-1">
+  <main id="main-content" class="flex-grow">
 
     <div class="container">
 
       <!--Put background image inside jumbotron-->
-      <div class="row mt-4 jumbotron about-img">
+      <div class="row mt-4">
 
-        <!--Oh its my face :/ -->
-        <div class="col-md-4 order-md-2">
-          <img src="assets/images/bio_photo.PNG" class="img-fluid rounded" alt="Smiling dark blonde woman with blue eyes">
+        <div class="col-md-1"></div>
+        <!--col-md-1-->
+
+        <!--Hello Form-->
+        <div class="col-md-6 p-3 rounded contactform">
+          <h2>Contact Me!</h2>
+          <hr>
+
+          <form>
+            <!--Get Name-->
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input type="text" class="form-control" id="contact-name" placeholder="John Doe">
+            </div>
+
+            <!--Get email-->
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" class="form-control" id="contact-email" placeholder="example@email.com">
+            </div>
+
+            <!--Get message-->
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea class="form-control" id="contact-message" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary my-1">Submit</button>
+
+          </form>
         </div>
 
-        <!--About Me!!-->
-        <div class="col-md-8 order-md-1">
-          <h1 class="display-4">I'm Samantha Taddonio</h1>
-          <hr class="my-4">
-          <p class="lead">I am a full-time Senior Business Analyst for a Product Solutions team. We work on building new products to support our company.</p>
-          <p class="lead">When i have spare time I like to read, paint, and play D&D.</p>
-        </div>
+        <div class="col-md-5"></div> <!--col-md-4-->
 
       </div>
       <!--row-->
@@ -96,7 +115,7 @@
 
   </main>
 
-  <footer class="bg-dark text-white mt-4 pt-2 fixed-bottom" >
+  <footer class="bg-dark text-white mt-4 pt-2 fixed-bottom">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
