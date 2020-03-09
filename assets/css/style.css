@@ -1,38 +1,44 @@
-html,body{
-    position: relative;
-    padding-top: 4.5rem;
-    background-image:url('../images/tree_bark.png');
-    margin-bottom: 60px;;
+/* html,
+body{
+    height: 100%
 }
 
-
-
-.about-img{
-    background-image: url('../images/sakura.png');
+.full-page {
+    /* height: 100%; */
+    /* min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
     background-repeat: repeat;
-}
+  } */
 
-
-.contactform{
-    background-color: #fff;
-    padding: 15px;
-    border-color: #fff;
-    border-left: 6px solid grey;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-}
-
-/*
-html,body{
-    position: relative;
+  body {
     min-height: 100vh;
     padding-top: 4.5rem;
-    background-image:url('../images/tree_bark.png');
-    margin-bottom: 60px;;
-}
+    background-image: url('../images/background/sharon-mccutcheon-NkQD-RHhbvY-unsplash-cropped.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-.page-wrap{
-    min-height: 100%;
-    position: relative;
-}
+  /* .page-wrap{
+    height: 100%;
+  } */
 
-*/
+  nav{
+    background-color: rgba(206,170,170, 0.5);
+  }
+
+  .card{
+    background-color: rgba(255,255,255,.2);
+  }
+
+    .contactform{
+        background-color:rgba(255, 243, 157, 0.3);
+        padding: 15px;
+        border-color: #fff39d;
+        border-left: 6px solid #fff39d;
+        color: #666666;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    }
+    
