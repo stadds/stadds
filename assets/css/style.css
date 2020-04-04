@@ -26,19 +26,57 @@ body{
   } */
 
   nav{
-    background-color: rgba(206,170,170, 0.5);
+    background-color:rgba(252,240,240, 0.5);
   }
 
   .card{
-    background-color: rgba(255,255,255,.2);
+    background-color:   rgba(252,240,240, 0.5);
   }
 
-    .contactform{
-        background-color:rgba(255, 243, 157, 0.3);
+  .contactform{
+        background-color: rgba(252,240,240, 0.5);
         padding: 15px;
-        border-color: #fff39d;
-        border-left: 6px solid #fff39d;
-        color: #666666;
+        border-color: #fcf0f0;
+        border-left: 6px solid #fcf0f0;
+        color: #000000;
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-    }
+  }
     
+  .bio {
+    background-color: rgba(252,240,240, 0.5) ;
+    padding: 2em;
+  }
+
+  .lead{
+    font-weight: 400;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
+}
+
+.btn-primary{
+  background-color: #6c5c6d;
+}
+
+.btn-primary:hover{
+  background-color:  rgba(108,92,109, 0.5);
+}
+
+.nav-link:hover{
+  background-color:  rgba(108,92,109, 0.5);
+
+}
+
+.active{
+  background-color:   rgba(252,240,240, 0.5);
+}
+
+.navbar-toggler {
+  background-color:   rgba(252,240,240, 0.5);
+}
+
+
+/* 
+  rgba(255, 243, 157, 0.3)
+*/
