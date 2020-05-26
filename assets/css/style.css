@@ -72,3 +72,8 @@ h2{
 hr.fourth {
   border: 1px solid var(--fourth);
 }
+
+.border-top{
+  border-top: 5px solid var(--fourth) !important;
+  border-radius: 1px;
+}
