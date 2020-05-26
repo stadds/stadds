@@ -1,81 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/55a1baa714.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-  <title>Stadds Portfolio</title>
+    <title>Stadds: About</title>
 </head>
 
-<body class="d-flex align-items-center justify-content-center">
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand pr-2" href="#"><img src="./assets/img/logo/rocket.svg" width="60" height="60"
+                        alt="" loading="lazy" />STadds</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navtoggle"
+                    aria-controls="navtoggle" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#"><strong>STadds</strong></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"><strong>Home</strong>
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html"><strong>Portfolio</strong></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html"><strong>Contact</strong></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+                <div class="collapse navbar-collapse" id="navtoggle">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    </ul>
+                </div>
 
-  <!-- Full Page Image Header with Vertically Centered Content -->
-  <header>
-    <div class="container bio">
-      <div class="row align-items-center">
+            </div>
+        </nav>
+    </header>
+    <!-- " d-flex align-items-center justify-content-center" -->
+    <main class="main-wrapper">
+        <div class="container-lg bg-third rounded shadow">
+            <div class="row">
+                <div class="col-md-5 order-md-2">
+                    <div class="card text-center p-2 no-bg-no-bd">
+                        <img src="assets/img/about/bio_photo.PNG" class="img-fluid rounded" alt="Sam's headshot" />
+                        <div class="card-secontion">
 
-        <!--Oh its my face :/ -->
-        <div class="col-md-5 order-md-2">
-          <img src="assets/images/about/bio_photo.PNG" class="img-fluid rounded" alt="Smiling dark blonde woman with blue eyes">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7 order-md-1 text-center">
+                    <h2 class="display-3">Welcome</h2>
+                    <h3>I'm Samantha Taddonio</h3>
+                    <hr class="my-4 fourth">
+                    <p class="lead">I am a full-time Senior Business Analyst for a Product Solutions team. We work on
+                        building new products to support our company.</p>
+                    <p class="lead">When I have spare time I like to read, paint, and play D&D.</p>
+                </div>
+            </div>
         </div>
 
-        <!--About Me!!-->
-        <div class="col-md-7 order-md-1 text-center">
-          <h1 class="display-2">I'm Samantha Taddonio</h1>
-          <hr class="my-4">
-          <p class="lead">I am a full-time Senior Business Analyst for a Product Solutions team. We work on building new products to support our company.</p>
-          <p class="lead">When i have spare time I like to read, paint, and play D&D.</p>
+    </main>
+
+    <footer>
+        <div class="container-lg bg-">
+            <div class="row">
+                <div class="col-md-3 text-center font-weight-bold mb-2">
+                    &copy; Samantha Taddonio
+                </div>
+                <div class="col-md-9 mb-2">
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link bg-fourth" href="#">GitHub</a>
+                        </li>
+                        <li class="nav-item  mx-2">
+                            <a class="nav-link bg-fourth" href="#"><i class="fab fa-linkedin mr-2"></i>LinkedIn</a>
+                        </li>
+                        <li class="nav-item  mx-2">
+                            <a class="nav-link bg-fourth" href="mailto:staddi@gmail.com">Email</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </footer>
 
-      </div>
-    </div>
-  </header>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
