@@ -47,7 +47,7 @@ h2{
   padding: 1em;
   margin-bottom: 5em;
   min-height: 70vh;
-}
+} 
 
 .bg-second {
   background-color: var(--secondary);
