@@ -43,6 +43,19 @@ h2{
   font-size: 1.5em;
 }
 
+.nav-footer:hover{
+  filter: brightness(85%);
+  color: var(--primary);
+}
+
+.fab{
+  font-size: 1.5em;
+}
+
+.fas{
+  font-size: 1.5em;
+}
+
 .main-wrapper{
   padding: 1em;
   margin-bottom: 5em;
